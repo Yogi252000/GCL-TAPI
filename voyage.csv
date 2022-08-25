@@ -1,0 +1,12 @@
+Voyage No.,Departure Port,Arrival Port,Instructed Speed,Avg Speed (Voyage),Avg Speed (in Good weather),Avg FO cons / day,CP Fuel cons limit
+01 L,Vizag,Hazira,11,9.9,9.9,37.1,36
+02 L,Vizag,Hazira,11,11.4,11.4,36.1,36
+03 L,Mina Saqr,Dhamra,11,9.9,10.2,36.8,36
+04 L,Vizag,Hazira,11,11,11.4,35.8,35
+05 L,Mina Saqr,Dhamra,11,9.5,10,38.1,36
+06 L,Vizag,Hazira,11,10.1,10.1,35.4,36
+07L,Vizag,Hazira,11,9.5,9.5,34.2,32
+08L,Mina Saqr,Dhamra,11,9.4,9.6,33.3,32
+09L,Vizag,Hazira,11,9.3,9.3,34.9,32
+10L,KANDLA - INDIA,LIANYUNGANG - CHINA,11,9.3,9.23,35.94,32
+11L,VOSTOCHNY - RUSSIA,,11,11.03,10.91,33.4,32

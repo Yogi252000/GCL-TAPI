@@ -1,0 +1,12 @@
+Voyage No.,Departure Port,Arrival Port,Instructed Speed,Avg Speed (Voyage),Avg Speed (in Good weather),Avg FO cons / day,CP Fuel cons limit
+01 B,Colombo,Vizag,11,11,11,37.7,32
+02 B,Hazira,Vizag,11,11.1,11.1,35.9,32
+03 B,Hazira,Mina Saqr,11,11.6,11.6,36.3,35
+04 B,Dhamra,Vizag,11,12.26,12.26,35.6,32
+05 B,Hazira,Mina Saqr,11,11.74,11.75,36,34
+06 B,Dhamra,Vizag,11,12.01,12.01,34.1,36
+07B,Hazira,Vizag,11,10.1,10.1,33.9,28
+08B,Hazira,Mina Saqr,11,10.9,10.9,31.2,32
+09B,Dhamra,Vizag,11,9.8,9.8,36.1,28
+10B,HAZIRA - INDIA,KANDLA - INDIA,11,10.07,10.07,37.5,28
+11B,LIANYUNGANG - CHINA,VOSTOCHNY - RUSSIA,11,12.4,12.28,24.25,32
