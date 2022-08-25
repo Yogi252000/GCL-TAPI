@@ -19,9 +19,9 @@ st.subheader("GCL TAPI VOYAGE PERFORMANCE")
 
 selected = option_menu(
     menu_title = None,
-    options=["Laden", "Ballast","Laden-Speed & Con","Ballast-Speed & con","Laden-Slip(%)","Ballast-Slip(%)","FW Production","Power"],
+    options=["Laden", "Ballast","Laden-Speed & Con","Ballast-Speed & con","Laden-Slip(%)","Ballast-Slip(%)","FW Production"],
 
-    icons=["ship","ship","ship","ship","ship","ship","ship","ship"],
+    icons=["ship","ship","ship","ship","ship","ship","ship"],
     orientation="horizontal",
     default_index=0,
     styles={
@@ -88,7 +88,7 @@ if selected == "Laden":
     fig.update_yaxes(visible=True,showticklabels=True,title_font=dict(size=12))
     st.plotly_chart(fig, use_container_width=True)
     st.write('Laden data')
-    first = pd.read_csv("Voyage.csv")
+    first = pd.read_csv("voyage.csv")
     st.write(first)
 
 
@@ -196,7 +196,7 @@ if selected == "Laden-Speed & Con":
     fig2.update_yaxes(range=[0, 80])
     fig2.update_yaxes(visible=True, showticklabels=True, title_font=dict(size=12))
     st.plotly_chart(fig2, use_container_width=True)
-    data = pd.read_csv("Laden.csv")
+    data = pd.read_csv("laden.csv")
     st.write(data)
 
 
