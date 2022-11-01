@@ -220,6 +220,37 @@ if selected == "Laden-Speed & Con":
             ])
         )
     )
+    fig2.add_annotation(
+        x='2022-05-28'
+        , y='11'
+        , text=f'Enter Dry Dock (05/May/2022)'
+        , yanchor='bottom'
+        , showarrow=True
+        , arrowhead=1
+        , arrowsize=1
+        , arrowwidth=2
+        , arrowcolor="#636363"
+        , ax=-20
+        , ay=-30
+        , font=dict(size=14, color="purple", family="Courier New, monospace")
+        , align="left"
+        , )
+       
+    fig2.add_annotation(
+        x='2022-07-22'
+        , y='11'
+        , text=f'After Dry Dock'
+        , yanchor='bottom'
+        , showarrow=True
+        , arrowhead=1
+        , arrowsize=1
+        , arrowwidth=2
+        , arrowcolor="#636363"
+        , ax=-20
+        , ay=-30
+        , font=dict(size=14, color="purple", family="Courier New, monospace")
+        , align="left"
+        , )
     fig2.update_xaxes(title_text="UTC Date & Time")
     fig2.update_layout(legend=dict(yanchor="top", y=0.9, xanchor="left", x=0.7))
     fig2.update_yaxes(title_text="Instructed Speed,CP Fuel Cons. Limit,Speed (KTS),TOTAL FO Consumption / 24 hrs")
