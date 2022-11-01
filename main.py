@@ -147,7 +147,7 @@ if selected == "Ballast":
         height=600
 
     )
-    fig.add_annotation(
+    fig11.add_annotation(
         x='11B'
         , y='32'
         , text=f'AFTER DRY DOCK'
