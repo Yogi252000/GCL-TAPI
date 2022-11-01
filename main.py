@@ -223,7 +223,7 @@ if selected == "Laden-Speed & Con":
     fig2.add_annotation(
         x='2022-05-28'
         , y='11'
-        , text=f'Enter Dry Dock (05/May/2022)'
+        , text=f'Enter DD (05/May/2022)'
         , yanchor='bottom'
         , showarrow=True
         , arrowhead=1
@@ -239,7 +239,7 @@ if selected == "Laden-Speed & Con":
     fig2.add_annotation(
         x='2022-07-22'
         , y='11'
-        , text=f'After Dry Dock'
+        , text=f'After DD'
         , yanchor='bottom'
         , showarrow=True
         , arrowhead=1
