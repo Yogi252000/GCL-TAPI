@@ -239,7 +239,7 @@ if selected == "Laden-Speed & Con":
     fig2.add_annotation(
         x='2022-07-22'
         , y='11'
-        , text=f'After DD'
+        , text=f'After DD (22/July/2022)'
         , yanchor='bottom'
         , showarrow=True
         , arrowhead=1
