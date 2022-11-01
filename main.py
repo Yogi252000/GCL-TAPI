@@ -79,6 +79,21 @@ if selected == "Laden":
         height=600,
 
     )
+    fig.add_annotation(
+        x='11L'
+        , y='33.4'
+        , text=f'AFTER DRY DOCK'
+        , yanchor='bottom'
+        , showarrow=True
+        , arrowhead=1
+        , arrowsize=1
+        , arrowwidth=2
+        , arrowcolor="#636363"
+        , ax=-20
+        , ay=-30
+        , font=dict(size=14, color="purple", family="Courier New, monospace")
+        , align="left"
+        , )     
 
     fig.update_xaxes(title_text="Voyage Number")
 
