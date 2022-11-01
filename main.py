@@ -147,6 +147,21 @@ if selected == "Ballast":
         height=600
 
     )
+    fig.add_annotation(
+        x='11B'
+        , y='32'
+        , text=f'AFTER DRY DOCK'
+        , yanchor='bottom'
+        , showarrow=True
+        , arrowhead=1
+        , arrowsize=1
+        , arrowwidth=2
+        , arrowcolor="#636363"
+        , ax=-20
+        , ay=-30
+        , font=dict(size=14, color="purple", family="Courier New, monospace")
+        , align="left"
+        , )     
 
     fig11.update_xaxes(title_text="Voyage Number")
     fig11.update_yaxes(
