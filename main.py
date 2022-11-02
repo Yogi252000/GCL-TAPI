@@ -305,7 +305,7 @@ if selected == "Ballast-Speed & con":
             ])
         )
     )
-    fig2.add_annotation(
+    fig1.add_annotation(
         x='2022-05-28'
         , y='11'
         , text=f'Enter DD (05/May/2022)'
@@ -321,7 +321,7 @@ if selected == "Ballast-Speed & con":
         , align="left"
         , )
        
-    fig2.add_annotation(
+    fig1.add_annotation(
         x='2022-07-22'
         , y='11'
         , text=f'After DD (22/July/2022)'
